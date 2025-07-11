@@ -1,0 +1,35 @@
+
+# Task parameters
+Calculate                     optimize
+Opt_energy_convergence        1.0000e-05
+Opt_gradient_convergence      2.0000e-03 A
+Opt_displacement_convergence  5.0000e-03 A
+Opt_iterations                1000
+Opt_max_displacement          0.3000 A
+Symmetry                      off
+Max_memory                    2048
+File_usage                    smart
+Scf_density_convergence       1.000000e-06
+Scf_charge_mixing             2.000000e-01
+Scf_spin_mixing               5.000000e-01
+Scf_diis                      10 pulay
+Scf_iterations                1000
+
+# Electronic parameters
+Spin_polarization             unrestricted
+Charge                        0
+Basis                         dnp
+basis_version                 basfile_v4.4
+Pseudopotential               none
+Functional                    pbe
+Aux_density                   hexadecapole
+Integration_grid              fine
+Occupation                    thermal 0.0100
+Dipole_correction_z
+Cutoff_Global                 4.5000 angstrom
+
+# Kpoint definition file (intervals/offset): 
+Kpoints                       file     2 2 1 0.0000 0.0000 0.0000
+3Pd_on_Pd__1_0_0_.kpoints
+
+# Calculated properties
